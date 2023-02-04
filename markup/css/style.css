@@ -1,0 +1,33 @@
+.gaslo{
+    font-size: larger;
+    font-weight: 700;
+    margin-left: 300px;
+}
+.gaslo1{
+    font-size: larger;
+    font-weight: 700;
+    margin-left: 10px;
+}
+div>a {
+    color: rgb(28, 18, 37);
+}
+h1 {
+    color: rgb(6, 6, 104);
+}
+.start.end {
+    color: rgb(219, 30, 178);
+}
+h3~p {
+    color: rgb(34, 85, 66);
+}
+li h3 {
+    color: rgb(253, 154, 6);
+}
+#thank_you {
+    text-align: center;
+    color: rgb(214, 8, 8);
+
+}
+h2 {
+    color: rgb(18, 124, 128);
+}
