@@ -1,0 +1,59 @@
+/* <!-- font-family: 'New Rocker', cursive;
+font-family: 'Raleway', sans-serif;
+font-family: 'Sassy Frass', cursive; --> */
+* {
+    box-sizing: border-box;
+}
+header {
+
+}
+.head1 {
+    display: inline-block;
+    
+}
+.head2 {
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+.head3 {
+    display: inline-block;
+    margin-right: 50px;
+    
+}
+.koza, .gitare_wind {
+    width: 50px;
+    height: 50px;
+
+}
+.title {
+    font-family: 'Sassy Frass', cursive;;
+    color: blue;
+}
+h2 {
+    font-family: 'Sassy Frass', cursive;
+    text-align: center;
+}
+.groups {
+    margin: 0 auto;
+    width: 990px;
+    height: auto;
+}
+.group {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    background-color: blanchedalmond;
+    padding: 0 15px;
+}
+.foto {
+    width: 75px;
+    height: 75px;
+    margin: 0 auto;
+}
+p {
+    text-align: center;
+}
+a {
+    margin: 0 auto;
+}
