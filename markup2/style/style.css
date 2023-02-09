@@ -1,59 +1,69 @@
-/* <!-- font-family: 'New Rocker', cursive;
-font-family: 'Raleway', sans-serif;
-font-family: 'Sassy Frass', cursive; --> */
+/* font-family: 'New Rocker', cursive;
+font-family: 'Righteous', cursive; */
 * {
     box-sizing: border-box;
 }
-header {
+
+main {
+    background-image: url(../images/rock_bg_2.jpg);
+    border-collapse: collapse;
 
 }
-.head1 {
-    display: inline-block;
-    
-}
-.head2 {
-    display: inline-block;
-    margin: 0 auto;
-    
-}
-.head3 {
-    display: inline-block;
-    margin-right: 50px;
-    
-}
-.koza, .gitare_wind {
-    width: 50px;
-    height: 50px;
 
+.header {
+    background: rgba(54, 65, 45, 0.411);
 }
-.title {
-    font-family: 'Sassy Frass', cursive;;
-    color: blue;
+.head_title, .foot {
+    color: rgb(53, 8, 8);
+    font-size: xx-large;
 }
 h2 {
-    font-family: 'Sassy Frass', cursive;
-    text-align: center;
+    text-align: center;    
+    font-family: 'New Rocker', cursive;
 }
+li {
+    display: inline;
+}
+
 .groups {
     margin: 0 auto;
-    width: 990px;
-    height: auto;
+    width: 890px;
+    text-align: center;
+    border: 20px;
+}
+ul {
+    width: 100%;
+    padding: 10px;
 }
 .group {
-    width: 200px;
-    height: 300px;
+    text-align: center;
+    vertical-align: top;
+    width: calc(100%/4);
     display: inline-block;
-    background-color: blanchedalmond;
-    padding: 0 15px;
+    background-color: rgb(17, 13, 9);
+    margin: 10px 30px;
+}
+a {
+    color: rgb(105, 9, 9);
 }
 .foto {
-    width: 75px;
-    height: 75px;
-    margin: 0 auto;
+    width: 150px;
+    height: 150px;
 }
 p {
     text-align: center;
+    color: rgb(228, 225, 225);
 }
 a {
+    text-decoration: none;
+}
+ul {
     margin: 0 auto;
+}
+.cite {
+    color: rgb(32, 58, 49);
+    font-size: xx-large;
+}
+.footer {
+    background: rgba(54, 65, 45, 0.411);
 }
