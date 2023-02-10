@@ -3,23 +3,19 @@ font-family: 'Righteous', cursive; */
 * {
     box-sizing: border-box;
 }
-
 main {
     background-image: url(../images/rock_bg_2.jpg);
-    border-collapse: collapse;
-
 }
-
 .header {
     background: rgba(54, 65, 45, 0.411);
 }
 .head_title, .foot {
-    color: rgb(53, 8, 8);
-    font-size: xx-large;
+    color: rgb(53, 8, 8); 
 }
 h2 {
     text-align: center;    
     font-family: 'New Rocker', cursive;
+    margin: 0px 0px;
 }
 li {
     display: inline;
@@ -40,7 +36,7 @@ ul {
     vertical-align: top;
     width: calc(100%/4);
     display: inline-block;
-    background-color: rgb(17, 13, 9);
+    background-color: rgb(29, 23, 17);
     margin: 10px 30px;
 }
 a {
@@ -52,7 +48,7 @@ a {
 }
 p {
     text-align: center;
-    color: rgb(228, 225, 225);
+    color: rgb(202, 195, 195);
 }
 a {
     text-decoration: none;
@@ -63,6 +59,7 @@ ul {
 .cite {
     color: rgb(32, 58, 49);
     font-size: xx-large;
+    margin: 0 0;
 }
 .footer {
     background: rgba(54, 65, 45, 0.411);
