@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float</title>
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <div class="head_box">
+            <nav class="navig">
+                <ul class="menu">
+                    <li><h2 class="link"><a href="#">Один ліворуч, другий праворуч!</a></h2></li>
+                    <li><h2><a href="#">Один ліворуч, кілька праворуч!</a></h2></li>
+                    <li><h2><a href="#">Два ліворуч, два праворуч!</a></h2></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container_1">
+                <div class="box_1 box"><h2 class="numb">1</h2></div>
+                <div class="box_2 box"><h2 class="numb">2</h2></div>
+            </div>
+            <div class="container_2">
+                <div class="box_3 box">
+                    <h2 class="numb">1</h2>
+                </div>
+                <div class="box_right">
+                    <div class="box_4 box"><h2 class="numb_1">2</h2></div>
+                    <div class="box_4 box"><h2 class="numb_1">3</h2></div>
+                    <div class="box_4 box"><h2 class="numb_1">4</h2></div>
+                    <div class="box_4 box"><h2 class="numb_1">5</h2></div>
+                </div>
+            </div>
+            <div class="container_1">
+                <div class="box_1_left"> <!-- Чи потрібен для цих "боксів" overflow:hidden? Якщо на них є float то воно саме повертає лойаут?! --> 
+                    <div class="box_1_1 box"><h2 class="numb">1</h2></div>
+                    <div class="box_1_1 box"><h2 class="numb">2</h2></div>
+                </div>
+                <div class="box_1_right"> <!-- Чи потрібен для цих "боксів" overflow:hidden? Якщо на них є float то воно саме повертає лойаут?! -->
+                    <div class="box_2_2 box"><h2 class="numb">4</h2></div>
+                    <div class="box_2_2 box"><h2 class="numb">3</h2></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2 class="foot_title">Дякую за увагу)!!!!</h2>
+    </footer>
+    
+</body>
+</html>
