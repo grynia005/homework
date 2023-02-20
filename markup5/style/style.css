@@ -7,40 +7,33 @@ header {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: auto;
     position: relative;
     left: 50px;
-    top: 50px;
+    top: 40px;
 }
 
-/* .logo_box h3 {
-    font-size: 45px;
-    color: antiquewhite;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0 0 0 80px;
-
-} */
-
-
-/* a {
+a {
     padding: 10px;
-    border: 4px solid yellow;
-    border-radius: 50px;
+    border: 5px solid rgb(156, 5, 5);
     text-decoration: none;
     color: rgb(19, 3, 3);
-    background: rgb(184, 176, 162);
-} */
+    background: rgb(245, 245, 244);
+}
 
-/* .link_box {
+.link_box {
     float: right;
     position: relative;
-    bottom: 106px;
+    bottom: 96px;
     right: 50px;
-} */
+}
 /* list */
 
+main {
+    background-color: black;
+    height: 800px
+}
 h2 {
     margin: 0;
     padding: 0;
@@ -49,61 +42,90 @@ a {
     display: block;
 }
 .container {
-    padding: 0;
-    margin: 0;
+    padding-left: 100px;
+    margin: 0 auto;
 
 }
 
 .container a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
     text-decoration: none;
-    border: 2px solid rgb(172, 196, 37);
-    border-radius: 0%;
-    background-color: antiquewhite;
+    border: 2px solid rgb(63, 4, 4);
+    background-color: rgb(255, 255, 255);
 }
 
 .container ul {
-        list-style: none;
+    list-style: none;
 }
- .rock_group {
+
+.rock_group {
     margin: 0;
     padding: 0;
 }
 .rock_group>li {
     position: relative;
     display: inline-block;
-    margin: 0 10px;
-    /* padding: 0 200px 0 0; */
+    margin: 50px 165px 100px 20px;
 }
 
- /* .rock_group li li {
+ .rock_group li li {
     position: relative;
     display: inline-block;
     margin: 0 10px;
-    padding: 0 200px 20px 50px;
-} */
-
- .rock_group ul li {
-    position: relative;
 }
 
-li {
+
+
+ li {
     min-width: 200px;
 }
 
 .rock_group ul {
     position: absolute;
     top: 100%;
-    left: 0%;
+    left: -25%;
     display: none;
 }
+
+ .rock_group ul li {
+    position: relative;
+} 
 .rock_group ul ul {
     top: 0%;
-    left: 100%;
+    left: 75%;
 }
- 
-/* .name:hover>ul {
+.name:hover>ul {
     display: block;
-} */
+}
 .rock_group li:hover> ul {
     display: block;
+} 
+.rock_group li:hover a  {
+    background-color: rgb(27, 26, 26);
+    color: rgb(255, 255, 255);
+} 
+
+.album li:hover a  {
+    background-color: rgb(0, 0, 0);
+    color: rgb(250, 250, 250);
+}
+.box_1 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: azure;
+    margin: 0;
+}
+footer {
+    background-color: black;
+    min-height: 150px;
+}
+blockquote {
+    font-family:'Courier New', Courier, monospace;
+    font-size: x-large;
+    color: aliceblue;
+    margin: 0;
+    text-align: center;
 }
