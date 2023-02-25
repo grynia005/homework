@@ -72,19 +72,22 @@ a {
  .rock_group li li {
     position: relative;
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 0px;
 }
 
-
+ul {
+    margin: 0;
+    padding: 0;
+}
 
  li {
     min-width: 200px;
-}
+ }
 
 .rock_group ul {
     position: absolute;
     top: 100%;
-    left: -25%;
+    left: 0%;
     display: none;
 }
 
@@ -93,7 +96,7 @@ a {
 } 
 .rock_group ul ul {
     top: 0%;
-    left: 75%;
+    left: 100%;
 }
 .name:hover>ul {
     display: block;
