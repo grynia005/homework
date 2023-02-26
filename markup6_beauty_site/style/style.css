@@ -306,10 +306,15 @@ table a {
 }
 
 /* footer -------------------------------------------------------------- */
- .container_list_foot {
+hr {
+    margin: 0;
+    height: 0px;
+    color: var(--background_head-foot);
+}
+.container_list_foot {
     overflow: hidden;
     padding: 43px 0 50px 50px;
-    border-bottom: 1px solid var(--background_head-foot);
+    
  }
 
 .list_categories {
@@ -333,3 +338,56 @@ table a {
     color: var(--color_foot_list);
 }
 
+/*  icon ------------------------------------------------------------ */
+
+.foot_network {
+    float: left;
+    padding: 34px 0 37px 24px;
+}
+
+.soc_net {
+    overflow: hidden;
+}
+.social li {
+    float: left;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    border: 1px solid var(--color_brand);
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+.icon h2 {
+    margin: 9px; 
+    text-align: center;
+}
+.icon a {
+    font-size: 22px;
+    color: var(--color_brand);
+}
+/*  bottomm footer---------------------------------------------- */
+
+.foot_bottom {
+    background-color: var(--background_head-foot);
+}
+
+.foot_cont {
+    overflow: hidden;
+    font-size: 12px;
+    line-height: calc(14/12);
+    color: var(--color_foot_list);
+}
+
+.box_foot_1 {
+    float: left;
+    padding: 14px 0 16px 24px;
+}
+
+.box_foot_2 {
+    float: right;
+    padding: 13px 24px 0 0;
+}
