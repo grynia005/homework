@@ -45,7 +45,9 @@ h1 {
     background-color: var(--background_head-foot);
 }
 
-
+.nav {
+    overflow: hidden;
+}
 .head_nav {
     overflow: hidden;
     width: 400px;
@@ -53,7 +55,8 @@ h1 {
 }
 .nav_cont li {
     float: left;
-    margin: 19px 11px 16px 19px;
+    margin: 16px 11px 16px 19px;
+    padding-top: 10px;
 }
 
 .nav_cont h4,
@@ -69,9 +72,11 @@ a {
 
 .head_logo_container {
     background-color: var(--background_white);
+    border-bottom: 1px solid var(--background_head-foot);
 }
 .logo_container {
     overflow: hidden;
+    padding-bottom: 15px
 }
 .logo_box>a {
     float: left;
@@ -80,7 +85,7 @@ a {
 .logo_box h2 {
     float: right;
     margin: 0;
-    padding: 39px 0 0 9px;
+    padding: 40px 0 0 9px;
 }
 .lg {
     color: var(--color_brand);
@@ -130,7 +135,7 @@ a {
 
 .nav_site li {
     float: left;
-    margin: 26px -17px 10px 57px;
+    margin: 31px -17px 29px 57px;
 }
 /* MAIN ------------------------------------------------------------------- */
 
@@ -172,7 +177,7 @@ main a {
     border-radius: 40px;
 }
 .box_chair p {
-    margin-bottom: 47px;
+    margin-bottom: 54px;
 }
 .page_sect {
     background-color: var(--background_head-foot);
@@ -184,10 +189,10 @@ main a {
 }
 /* ----------------------------- */
 .container_body_list {
-    padding: 80px 0 0 51px;
+    padding: 79px 0 0 51px;
 }
 .container_body_list>h2 {
-    margin: 0 0 39px 0;
+    margin: 0 0 40px 0;
 }
 
 .list_chair li {
@@ -201,7 +206,7 @@ main a {
 .card {
     background-color: var(--background_white);
     width: 255px;
-    padding: 25px 0 13px 0px;
+    padding: 25px 0 32px 0px;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(20/14);
@@ -212,12 +217,19 @@ main a {
     margin-bottom: -1px;
 } 
 .card h3 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(20/14);
+    color: var(--color_discription);
+}
+.card span {
+    display: block;
     font-weight: 500;
     font-size: 21px;
     line-height: 25px;
     text-align: center;
     letter-spacing: 0.05em;
-    margin: -1px 0 -2px 0 ;
+    margin: -1px 0 24px 0 ;
 }
 
 
@@ -243,6 +255,11 @@ main a {
     margin: 0 46px 0 0;
 }
 
+.info_form button {
+    position: absolute;
+    display: none;
+}
+
 .form_img {
     float: right;
     padding: 18px 43px 32px 0px;
@@ -260,7 +277,7 @@ main a {
 }
 
 .info_form p {
-    margin-bottom: 24px;
+    margin-bottom: 25px;
 }
 .info_form input {
     width: 200px;
@@ -274,13 +291,15 @@ main a {
     padding-bottom: 23px;
 }
 .info_form a {
-    padding: 6px 48px;
+    display: inline-block;
+    margin-top: 2px; 
+    padding: 7px 48px;
     color: var(--background_white);
     background-color: var(--color_brand);
     border: 2px solid var(--background_white);
 }
 .car {
-    margin: 20px 0 0 -48px;
+    margin: 20px 0 19px -48px;
 }
 /* table ------------------------------------------------------------- */
 
@@ -319,7 +338,8 @@ hr {
 
 .list_categories {
     float: left;
-    width: calc(25% - 5px);
+    width: 255px;
+    margin-right: 30px;
     
 }
 
@@ -354,14 +374,17 @@ hr {
 
 .icon {
     width: 45px;
-    height: 45px;
+    height: calc(100% - 16px);
     border: 1px solid var(--color_brand);
     border-radius: 50%;
-    margin-right: 20px;
+    margin-right: 18px;
 }
 
-
-.icon h2 {
+.youtube span {
+    font-size: 18px;
+}
+.icon a {
+    display: block;
     margin: 9px; 
     text-align: center;
 }
@@ -384,10 +407,13 @@ hr {
 
 .box_foot_1 {
     float: left;
-    padding: 14px 0 16px 24px;
+    padding: 13px 0 16px 24px;
 }
 
 .box_foot_2 {
     float: right;
     padding: 13px 24px 0 0;
+}
+.foot_logo_cont {
+    padding: 0;
 }

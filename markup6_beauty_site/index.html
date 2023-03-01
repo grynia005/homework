@@ -14,13 +14,15 @@
         <div class="head_container">
             <div class="navigation container">
                 <div class="head_nav">
-                    <ul class="nav_cont">
-                        <li><h4 class="nav_info"><a href="#">Delivery</a></h4></li>
-                        <li><h4 class="nav_info"><a href="#">Payment</a></h4></li>
-                        <li><h4 class="nav_info"><a href="#">Reviews</a></h4></li>
-                        <li><h4 class="nav_info"><a href="#">FAQ</a></h4></li>
-                        <li><h4 class="nav_info"><a href="#">Contacts</a></h4></li>
-                    </ul>
+                    <nav class="nav">
+                        <ul class="nav_cont">
+                            <li><a class="nav_info" href="#">Delivery</a></li>
+                            <li><a class="nav_info" href="#">Payment</a></li>
+                            <li><a class="nav_info" href="#">Reviews</a></li>
+                            <li><a class="nav_info" href="#">FAQ</a></li>
+                            <li><a class="nav_info" href="#">Contacts</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>      
         </div>
@@ -39,14 +41,16 @@
         <div class="head_menu">
             <div class="menu_conainer container">
                 <div class="menu_nav">
-                    <ul class="nav_site">
-                        <li><h3 class="nav_site"><a href="#">Salon</a></h3></li>
-                        <li><h3 class="nav_site"><a href="#">Barbershop</a></h3></li>
-                        <li><h3 class="nav_site"><a href="#">Manicure</a></h3></li>
-                        <li><h3 class="nav_site"><a href="#">Pedicure</a></h3></li>
-                        <li><h3 class="nav_site"><a href="#">Massage</a></h3></li>
-                        <li><h3 class="nav_site"><a href="#">Furniture</a></h3></li>
-                    </ul>
+                    <nav class="nav">
+                        <ul class="nav_site">
+                            <li><a class="nav_site" href="#">Salon</a></li>
+                            <li><a class="nav_site" href="#">Barbershop</a></li>
+                            <li><a class="nav_site" href="#">Manicure</a></li>
+                            <li><a class="nav_site" href="#">Pedicure</a></li>
+                            <li><a class="nav_site" href="#">Massage</a></li>
+                            <li><a class="nav_site" href="#">Furniture</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -58,7 +62,7 @@
                     <h1>Super chair</h1>
                     <p>The text of the action always reflects the essence, and not just
                         chatter, so be careful</p>
-                    <h2><a href="#">More</a></h2>
+                    <a class="btn" href="#">More</a>
                 </div>
             </div>
         </section>
@@ -66,40 +70,39 @@
             <div class="container_body_list container">
                 <h2>Special offers</h2>
                 <div class="card_box">
-
                     <ul class="list_chair">
                         <li>
                             <div class="card">
                                 <img src="./images/chair.jpg" alt="chai">
-                                <p>Hairdressing chair "Norm"<br> hydraulic</p>
-                                <h3>$300 </h3>
-                                <h2><a href="#">Buy</a></h2>
+                                <h3>Hairdressing chair "Norm"<br> hydraulic</h3>
+                                <span>$300 </span>
+                                <a href="#">Buy</a>
                             </div>
                         </li>
                         <li>
                             <div class="card">
                                 <img src="./images/chair.jpg" alt="chai">
-                                <p>Hairdressing chair "Norm"<br> hydraulic</p>
-                                <h3>$300 </h3>
-                                <h2><a href="#">Buy</a></h2>
+                                <h3>Hairdressing chair "Norm"<br> hydraulic</h3>
+                                <span>$300 </span>
+                                <a href="#">Buy</a>
                             </div>
                         </li>
                         <li>
                             <div class="card">
                                 <img src="./images/chair.jpg" alt="chai">
-                                <p>Hairdressing chair "Norm"<br> hydraulic</p>
-                                <h3>$300 </h3>
-                                <h2><a href="#">Buy</a></h2>
+                                <h3>Hairdressing chair "Norm"<br> hydraulic</h3>
+                                <span>$300 </span>
+                                <a href="#">Buy</a>
                             </div>
                         </li>
                         <li>
                             <div class="card">
                                 <img src="./images/chair.jpg" alt="chai">
-                                <p>Hairdressing chair "Norm"<br> hydraulic</p>
-                                <h3>$300 </h3>
-                                <h2><a href="#">Buy</a></h2>
+                                <h3>Hairdressing chair "Norm"<br> hydraulic</h3>
+                                <span>$300 </span>
+                                <a href="#">Buy</a>
                             </div>
-                        </li>
+                        </li>   
                     </ul>
                 </div>
             </div>
@@ -107,9 +110,12 @@
                 <div class="container_body_form">
                     <div class="form_box form_box_1">
                         <div class="info_form">
-                            <h3>Get bonuses and gifts</h3>
-                            <p>Every month we play <br> $1000 for our clients</p>
-                            <input type="email" placeholder="Enter your e-mail">
+                            <form>
+                                <h3>Get bonuses and gifts</h3>
+                                <p>Every month we play <br> $1000 for our clients</p>
+                                <input type="email" placeholder="Enter your e-mail">
+                                <button type="submit">submit</button>
+                            </form>
                         </div>
                         <div class="form_img"><img src="./images/envelope.png" alt="envelope"></div>
                     </div>
@@ -117,7 +123,7 @@
                         <div class="info_form">
                             <h3>Visit us</h3>
                             <p>Over 300 stores <br> throughout the USA</p>
-                            <h2><a href="#">Store map</a></h2>
+                            <a href="#">Store map</a>
                         </div>
                         <div class="form_img car"><img src="./images/vector_car.png" alt="car"></div>
                     </div>
@@ -150,38 +156,37 @@
             <div class="container_body_list container">
                 <h2>Have you recently viewed</h2>
                 <div class="card_box">
-
                     <ul class="list_chair">
                         <li>
                             <div class="card">
                                 <img src="./images/chair.jpg" alt="chai">
-                                <p>Hairdressing chair "Norm"<br> hydraulic</p>
-                                <h3>$300 </h3>
-                                <h2><a href="#">Buy</a></h2>
+                                <h3>Hairdressing chair "Norm"<br> hydraulic</h3>
+                                <span>$300 </span>
+                                <a href="#">Buy</a>
                             </div>
                         </li>
                         <li>
                             <div class="card">
                                 <img src="./images/chair.jpg" alt="chai">
-                                <p>Hairdressing chair "Norm"<br> hydraulic</p>
-                                <h3>$300 </h3>
-                                <h2><a href="#">Buy</a></h2>
+                                <h3>Hairdressing chair "Norm"<br> hydraulic</h3>
+                                <span>$300 </span>
+                                <a href="#">Buy</a>
                             </div>
                         </li>
                         <li>
                             <div class="card">
                                 <img src="./images/chair.jpg" alt="chai">
-                                <p>Hairdressing chair "Norm"<br> hydraulic</p>
-                                <h3>$300 </h3>
-                                <h2><a href="#">Buy</a></h2>
+                                <h3>Hairdressing chair "Norm"<br> hydraulic</h3>
+                                <span>$300 </span>
+                                <a href="#">Buy</a>
                             </div>
                         </li>
                         <li>
                             <div class="card">
                                 <img src="./images/chair.jpg" alt="chai">
-                                <p>Hairdressing chair "Norm"<br> hydraulic</p>
-                                <h3>$300 </h3>
-                                <h2><a href="#">Buy</a></h2>
+                                <h3>Hairdressing chair "Norm"<br> hydraulic</h3>
+                                <span>$300 </span>
+                                <a href="#">Buy</a>
                             </div>
                         </li>
                     </ul>
@@ -194,75 +199,82 @@
             <div class="container_list_foot container">
                 <div class="list_categories">
                     <h3>Popular <br> categories</h3>
-                    <ul>
-                        <li><span>Нozzles</span></li>                                                     
-                        <li><span>Tools</span></li>                      
-                        <li><span>Gel polishes</span></li>
-                        <li><span>Design</span></li>
-                        <li><span>Building</span></li>
-                        <li><span>Equipment</span></li>
-                    </ul>
+                    <nav>
+                        <ul>
+                            <li><a href="#"><span>Нozzles</span></a></li>                                                     
+                            <li><a href="#"><span>Tools</span></a></li>
+                            <li><a href="#"><span>Gel polishes</span></a></li>
+                            <li><a href="#"><span>Design</span></a></li>
+                            <li><a href="#"><span>Building</span></a></li>
+                            <li><a href="#"><span>Equipment</span></a></li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="list_categories">
                     <h3>Popular <br> categories</h3>
-                    <ul>
-                        <li><span>Нozzles</span></li>                                                        
-                        <li><span>Tools</span></li>                      
-                        <li><span>Gel polishes</span></li>
-                        <li><span>Design</span></li>
-                        <li><span>Building</span></li>
-                        <li><span>Equipment</span></li>
-                    </ul>
+                    <nav>
+                        <ul>
+                            <li><a href="#"><span>Нozzles</span></a></li>                                                        
+                            <li><a href="#"><span>Tools</span></a></li>                      
+                            <li><a href="#"><span>Gel polishes</span></a></li>
+                            <li><a href="#"><span>Design</span></a></li>
+                            <li><a href="#"><span>Building</span></a></li>
+                            <li><a href="#"><span>Equipment</span></a></li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="list_categories">
                     <h3>Popular <br> categories</h3>
-                    <ul>
-                        <li><span>Нozzles</span></li>                                                        
-                        <li><span>Tools</span></li>                      
-                        <li><span>Gel polishes</span></li>
-                        <li><span>Design</span></li>
-                        <li><span>Building</span></li>
-                        <li><span>Equipment</span></li>
-                    </ul>
+                    <nav>
+                        <ul>
+                            <li><a href="#"><span>Нozzles</span></a></li>                                                        
+                            <li><a href="#"><span>Tools</span></a></li>                      
+                            <li><a href="#"><span>Gel polishes</span></a></li>
+                            <li><a href="#"><span>Design</span></a></li>
+                            <li><a href="#"><span>Building</span></a></li>
+                            <li><a href="#"><span>Equipment</span></a></li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="list_categories">
                     <h3>Popular <br> categories</h3>
-                    <ul>
-                        <li><span>Нozzles</span></li>                                                        
-                        <li><span>Tools</span></li>                      
-                        <li><span>Gel polishes</span></li>
-                        <li><span>Design</span></li>
-                        <li><span>Building</span></li>
-                        <li><span>Equipment</span></li>
-                    </ul>
+                    <nav>
+                        <ul>
+                            <li><a href="#"><span>Нozzles</span></a></li>                                                        
+                            <li><a href="#"><span>Tools</span></a></li>                      
+                            <li><a href="#"><span>Gel polishes</span></a></li>
+                            <li><a href="#"><span>Design</span></a></li>
+                            <li><a href="#"><span>Building</span></a></li>
+                            <li><a href="#"><span>Equipment</span></a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div> 
         </div>
         <hr>
         <div class="food_midle">
             <div class="head_logo_container">
-                <div class="logo_container container">
+                <div class="logo_container container foot_logo_cont">
                     <div class="foot_network">
                         <div class="soc_net">
                             <ul class="social">
                                 <li>
                                     <div class="icon">
-                                        <h2><a href="#"><span class="icon-Vector"></span></a></h2>
+                                        <a class="youtube" href="#"><span class="icon-Vector"></span></a>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="icon">
-                                        <h2><a href="#"><span class="icon-Vector-1"></span></a></h2>
+                                        <a href="#"><span class="icon-Vector-1"></span></a>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="icon">
-                                        <h2><a href="#"><span class="icon-instagram"></span></a></h2>
+                                        <a href="#"><span class="icon-instagram"></span></a>
                                     </div>
                                 </li>
                             </ul>
                         </div>
-
                     </div>
                     <div class="telefon">
                         <a href="tell:12131234567">1 (213) 123-45-67</a>
