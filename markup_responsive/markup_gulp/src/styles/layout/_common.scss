@@ -1,0 +1,17 @@
+body {
+  font-family: 'Graphik LCG', Arial, Helvetica, sans-serif;
+  color: $color_text_basic;
+}
+.container {
+  max-width: 1370px;
+  margin: 0 auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.page_wraper {
+  width: 100%;
+  overflow: hidden;
+}

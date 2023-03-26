@@ -1,0 +1,34 @@
+/* Header -------------------------------------------------------------------- */
+#header {
+    border-bottom: 1px solid var(--grey);
+}
+.head_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    align-items: center;
+}
+
+.logo_cont {
+    display: flex;
+    align-items: center;
+}
+.logo_box {
+    margin: 3px 51px 0 16px;
+}
+
+.nav_box ul {
+    display: flex;
+}
+.nav_box li {
+    padding-right: 51px;
+}
+.btn_cont ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.btn_cont li {
+    padding: 0 14px 0 0;
+} 

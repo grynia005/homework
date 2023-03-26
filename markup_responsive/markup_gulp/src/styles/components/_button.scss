@@ -1,0 +1,67 @@
+a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: $color_text_basic;
+    font-size: 15px;
+    line-height: calc(20/15);
+}
+a:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 8px $background_label_light;
+    color: $color_button;
+}
+
+.btn:hover, .btn_white:hover {
+    background-color: $grey;
+    color: $color_button;
+}
+.btn:hover {
+    border: 1px solid $color_text_basic;
+}
+
+.btn {
+    margin: 0;
+    text-decoration: none;
+    width: 160px;
+    text-align: center;
+    background-color: $color_button;
+    color: $background-white;
+    display: block;
+    border: 1px solid transparent;
+    padding: 18px 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(20/16);
+}
+.btn_black {
+    display: inline-block;
+    background-color: $color_text_basic;
+    color: $background-white;
+}
+.btn_white {
+    font-weight: 600;
+    color: $color_text_basic;
+    background-color: $background-white;
+    border: 1px solid $color_text_basic;
+    padding: 18px 0;
+}
+.btn_white {
+    color: $color_text_basic;
+    background-color: $background-white;
+    border: 1px solid $color_text_basic;
+}
+.btn_small {
+    font-weight: 600;
+    width: 120px;
+    padding: 11px 0;
+    font-size: 16px;
+    line-height: calc(20/16);
+
+}
+.white_small {
+    padding: 11px 0;
+    width: 120px;
+}
