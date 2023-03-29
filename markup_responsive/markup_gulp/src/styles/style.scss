@@ -5,8 +5,8 @@
 
 // 2. Vendors: include media mixins and mormalize imported from node_modules
 @import 'vendors/normalize';
-@import 'vendors/stylesheet';
 @import 'vendors/icon_star';
+@import 'vendors/stylesheet';
 
 
 // 3. Base styles and elements
@@ -20,9 +20,19 @@
 // 4. Layout-related sections
 @import 'layout/common';
 @import 'layout/header';
-@import 'layout/main';
+// @import 'layout/main';
 @import 'layout/footer';
-
+// 
+// -------------------------------
+@import 'sections/main_info';
+@import 'sections/brand_info';
+@import 'sections/card_info';
+@import 'sections/device_info';
+@import 'sections/team_info';
+@import 'sections/citate_info';
+@import 'sections/soft_info';
+@import 'sections/tools_info';
+@import 'sections/lokal_info';
 // 5. Components
 @import 'components/title';
 @import 'components/button';

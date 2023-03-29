@@ -1,0 +1,37 @@
+.soft_info {
+    background-color: $background_label_light;
+    padding: 80px 0;
+}
+.soft_cont {
+    display: flex;
+    align-items: center;
+}
+.soft_box_title {
+    display: flex;
+    align-items: center;
+    max-width: 62%;
+    border-right: 1px solid $color_text_basic;
+    padding: 0 0 0 20px;
+}
+.soft_box_icon ul {
+    display: flex;
+    padding-left: 70px;
+}
+.soft_box_title h3 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: calc(50/35);
+    margin-left: 66px;
+}
+.soft_box_icon {
+    font-size: 15px;
+    line-height: calc(25/15);
+    letter-spacing: 0.75px;
+}
+.star span {
+    font-size: 20px;
+    line-height: 1.2;
+}
+.icon_list>li {
+    margin-right: 70px;
+}

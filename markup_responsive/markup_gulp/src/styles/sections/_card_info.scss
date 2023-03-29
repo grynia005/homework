@@ -1,0 +1,53 @@
+.card_info {
+    padding-top: 90px;
+}
+
+.card_box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 243px;
+    align-items: center;
+}
+
+.info_card {
+    padding-right: 165px;
+    margin-left: 40px;
+    max-width: 48%;
+    font-size: 20px;
+    line-height: 1.5;
+    color: $color_text_basic;
+}
+
+.info_card h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.info_card p {
+    margin-bottom: 30px;
+}
+
+.info_card a {
+    display: inline;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: underline;
+}
+
+.card_cont :nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.card_cont>:last-child {
+    margin-bottom: 98px;
+}
+
+.link_usual a {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.row_rev {
+    padding: 23px 79px 0 97px;
+}
