@@ -1,37 +1,82 @@
 .soft_info {
     background-color: $background_label_light;
-    padding: 80px 0;
+    padding: 40px 0;
+
+    @media (min-width: 1200px) {
+        padding: 80px 0;
+    }
 }
 .soft_cont {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    
+    @media (min-width: 992px) {
+        flex-direction: row;
+    }
 }
 .soft_box_title {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    max-width: 62%;
-    border-right: 1px solid $color_text_basic;
-    padding: 0 0 0 20px;
+    border-bottom: 1px solid $color_text_basic;
+    margin-bottom: 40px;
+    padding: 0 20px 10px;
+    text-align: center;
+    width: 80%;
+    
+    @media (min-width: 768px) {
+        flex-direction: row;
+        text-align: start;
+    }
+    
+    @media (min-width: 992px) {
+        max-width: 62%;
+        border-right: 1px solid $color_text_basic;
+        padding: 0 10px 0 20px;
+        border-bottom: none;
+    }
+
+    h3 {
+        font-weight: 600;
+        line-height: calc(50/35);
+        font-size: 25px;
+        
+        @media (min-width: 768px) {
+            margin-left: 50px;
+            font-size: 35px;
+        }
+
+        @media (min-width: 992px) {
+            margin-left: 66px;
+        }    
+    }
 }
+
 .soft_box_icon ul {
     display: flex;
-    padding-left: 70px;
+    padding-left: 35px;
 }
-.soft_box_title h3 {
-    font-weight: 600;
-    font-size: 35px;
-    line-height: calc(50/35);
-    margin-left: 66px;
-}
+
 .soft_box_icon {
     font-size: 15px;
     line-height: calc(25/15);
     letter-spacing: 0.75px;
 }
+
 .star span {
     font-size: 20px;
     line-height: 1.2;
 }
+
 .icon_list>li {
-    margin-right: 70px;
+    padding: 0 10px;
+
+    @media (min-width: 992px) {
+        padding: 0 15px;
+    }
+
+    @media (min-width: 1200px) {
+        padding: 0 35px;
+    }
 }

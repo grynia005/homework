@@ -1,11 +1,26 @@
+
 .footer_top {
     display: flex;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    flex-direction: column;
     align-items: flex-start;
+
     font-size: 20px;
     line-height: 1.5;
-    padding-top: 92px;
-    padding-bottom: 95px;
-    border-bottom: 1px solid var(--color_text_basic);
+    border-bottom: 1px solid $color_text_basic;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+    
+    @media (min-width: 992px) {
+        align-items: flex-start;
+        padding-top: 92px;
+        padding-bottom: 95px;
+        
+    }
 }
 .case_link {
     text-align: start;
@@ -15,14 +30,38 @@
 }
 .foot_menu ul {
     display: flex;
+    flex-wrap: wrap;
+    
 }
 .foot_menu li>a {
+    display: none;
     text-align: start;
     margin-bottom: 10px;
+
+    @media (min-width: 768px) {
+        display: block;
+    }
+
+
 }
 .foot_box_info {
-    max-width: 33%;
-    padding: 0 120px 0 28px;
+
+    @media (min-width: 768px) {
+        
+        max-width: 40%;
+        padding: 0 70px 0 28px;
+    }
+    
+    @media (min-width: 992px) {
+
+        padding: 0 100px 0 28px;
+    }
+
+    @media (min-width: 1200px) {
+        width: 33%;
+        padding: 0 120px 0 28px;
+    }
+
 }
 .foot_box_info h3 {
     font-weight: 600;
@@ -38,12 +77,29 @@
     margin-bottom: 18px;
 }
 .foot_menu li {
-    width: calc(100% / 4);
-    padding: 0 38px;
+    width: 100%;
+    
+    @media (min-width: 768px) {
+        width: calc(100% / 2);
+        padding: 0 50px 20px;
+    }
+    @media (min-width: 992px) {
+        width: calc(100% / 4);
+        padding: 0 25px;
+    }
 }
 .foot_menu li>h4 {
     margin: 0 0 18px 0;
 } 
+
+.link_usual {
+    margin-bottom: 20px;
+
+
+    @media (min-width: 768px) {
+        margin-bottom: 0;
+    }
+}
 
 /* F-BOTTOM -------------------------------------------------- */
 
@@ -60,4 +116,79 @@
 }
 .foot_logo a {
     padding-right: 13px;
+}
+
+// CHeckBoX ---------------------------------------------------
+
+#check_p {
+    display: none;
+
+    @media (min-width: 360px) {
+        &:checked {
+            ~a {
+                display: block;
+            }
+
+        }
+    }
+
+
+}
+.check_p {
+    display: block;
+    margin-bottom: 18px;
+}
+#check_s {
+    display: none;
+
+    @media (min-width: 360px) {
+        &:checked {
+            ~a {
+                display: block;
+            }
+
+        }
+    }
+
+
+}
+.check_s {
+    display: block;
+    margin-bottom: 18px;
+}
+#check_c {
+    display: none;
+
+    @media (min-width: 360px) {
+        &:checked {
+            ~a {
+                display: block;
+            }
+
+        }
+    }
+
+
+}
+.check_c {
+    display: block;
+    margin-bottom: 18px;
+}
+#check_l {
+    display: none;
+
+    @media (min-width: 360px) {
+        &:checked {
+            ~a {
+                display: block;
+            }
+
+        }
+    }
+
+
+}
+.check_l {
+    display: block;
+    margin-bottom: 18px;
 }

@@ -23,6 +23,9 @@
 // @import 'layout/main';
 @import 'layout/footer';
 // 
+// 5. Components
+@import 'components/title';
+@import 'components/button';
 // -------------------------------
 @import 'sections/main_info';
 @import 'sections/brand_info';
@@ -33,9 +36,6 @@
 @import 'sections/soft_info';
 @import 'sections/tools_info';
 @import 'sections/lokal_info';
-// 5. Components
-@import 'components/title';
-@import 'components/button';
 
 // 6. Page-specific styles
 // @import 'pages/home';

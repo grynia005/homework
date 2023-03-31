@@ -25,16 +25,26 @@ a:hover {
 .btn {
     margin: 0;
     text-decoration: none;
-    width: 160px;
     text-align: center;
     background-color: $color_button;
     color: $background-white;
     display: block;
     border: 1px solid transparent;
-    padding: 18px 0;
-    font-weight: 600;
     font-size: 16px;
     line-height: calc(20/16);
+    font-weight: 600;
+    width: 130px;
+    padding: 10px 0;
+    
+    @media (min-width: 768px) {
+        padding: 12px 0;
+
+    }
+    @media (min-width: 992px) {
+        
+        width: 160px;
+        padding: 18px 0;
+    }
 }
 .btn_black {
     display: inline-block;
@@ -46,22 +56,20 @@ a:hover {
     color: $color_text_basic;
     background-color: $background-white;
     border: 1px solid $color_text_basic;
-    padding: 18px 0;
 }
-.btn_white {
-    color: $color_text_basic;
-    background-color: $background-white;
-    border: 1px solid $color_text_basic;
-}
+
 .btn_small {
+
+
     font-weight: 600;
-    width: 120px;
-    padding: 11px 0;
+    width: 100px;
+    padding: 8px 0;
     font-size: 16px;
     line-height: calc(20/16);
+    
+    @media (min-width: 992px) {
+        width: 120px;
+        
+    }
+}
 
-}
-.white_small {
-    padding: 11px 0;
-    width: 120px;
-}

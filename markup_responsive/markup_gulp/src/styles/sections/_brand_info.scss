@@ -1,19 +1,61 @@
 .brand_info {
     background-color: $background_label;
-    padding-top: 108px;
-    padding-bottom: 88px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+
+    @media (min-width: 992px) {
+
+
+        padding-bottom: 88px;
+        padding-top: 108px;
+    }
 }
 
 .companie_info {
-    width: 720px;
+    max-width: 720px;
     margin: 0 auto;
+    text-align: center;
+    @media (min-width: 576px) {
+
+    }
+    @media (min-width: 992px) {
+
+
+    }
+
+    @media (min-width: 992px) {
+        width: 720px;
+        text-align: start;
+        
+    }
 }
 
 .companie_info h2 {
-    margin-bottom: 82px;
+    padding-bottom: 40px;
+
+    @media (min-width: 992px) {
+
+
+        margin-bottom: 82px;
+    }
 }
 
 .brand_logo ul {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+
+    @media (min-width: 992px) {
+        flex-direction: row;
+
+    }
+    li {
+        padding: 10px 0;
+        @media (min-width: 992px) {
+            padding: 0;
+    
+        }
+    }
+
 }

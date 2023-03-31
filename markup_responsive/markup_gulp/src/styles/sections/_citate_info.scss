@@ -1,27 +1,63 @@
 .citate_info {
     background-color: $background_blue;
-    padding-top: 34px;
-    padding-bottom: 101px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+    @media (min-width: 992px) {
+        padding-top: 34px;
+        padding-bottom: 101px;
+    }
 }
 .citate_cont {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
-.citate_box {
-    padding-left: 40px;
+.citate_box {max-width: 90%;
     font-size: 15px;
     line-height: calc(25/15);
+    text-align: center;
+    margin-bottom: 20px;
+    
+    @media (min-width: 768px) {
+        padding-left: 40px;
+        text-align: start;
+        max-width: 70%;
+        margin-bottom: 0;
+
+    }
+    
+    blockquote {
+        font-size: 20px;
+        line-height: calc(40/30);
+        margin-left: 0;
+        margin-right: 0;
+        
+        @media (min-width: 768px) {
+            font-size: 25px;
+            margin-bottom: 23px;
+        }
+        @media (min-width: 1200px) {
+            font-size: 30px;
+        }
+    }    
 }
 
-.citate_box blockquote {
-    font-size: 30px;
-    line-height: calc(40/30);
-    margin-left: 0;
-    margin-bottom: 23px;
-}
 .foto_box {
-    padding: 19px 40px 0 0;
+    width: auto;
+    padding: 0 10px;
+    
+    @media (min-width: 768px) {
+        max-width: 35%;
+        padding: 19px 40px 0 0;
+
+    }
 }
 .citate_box span {
     font-family: 'Roboto';
