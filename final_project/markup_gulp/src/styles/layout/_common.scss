@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the common layout of the site
+// -----------------------------------------------------------------------------
+[id="wrapper"] {
+  width: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  color: $white;
+
+}
+
+.container {
+  max-width: 1370px;
+  margin: 0 auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.page_wraper {
+  width: 100%;
+  overflow: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
