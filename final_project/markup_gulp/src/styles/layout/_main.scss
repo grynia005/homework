@@ -1,5 +1,30 @@
 .main-wraper {
     background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
     border-radius: 0px 0px 12px 12px;
+    position: relative;
+
+    &::before {
+        content: '';
+        display: block;
+        width: 90%;
+        background: #CACADB;
+        border-radius: 0px 0px 12px 12px;
+        height: 10px;
+        position: absolute;
+        top: 100%;
+        left: 5%;
+    }
+
+    &::after {
+        content: '';
+        display: block;
+        width: 85%;
+        background: #E7E7F2;
+        border-radius: 0px 0px 12px 12px;
+        height: 10px;
+        position: absolute;
+        top: calc(100% + 10px);
+        left: 7.5%;
+    }
     
 }

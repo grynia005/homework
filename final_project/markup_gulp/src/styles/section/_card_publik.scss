@@ -1,0 +1,97 @@
+.card_publik {
+    font-size: 14px;
+    line-height: calc(22/14);
+    color: black;
+    padding: 30px 30px 0;
+    background: #F5F5FA;
+    
+
+    @media (min-width: 768px) {
+    padding: 30px 60px;
+
+    }
+
+    a {
+        text-transform: uppercase;
+        color: $hover-link;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: calc(17/14);
+        letter-spacing: 1px;
+        
+    }
+
+    span {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $gray-text;
+        display: block;
+        border-bottom: 4px solid $span_border;
+        padding-bottom: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+.publik_title {
+    margin-bottom: 30px;
+
+    h2 {
+        color: $prime-color-red;
+    }
+}
+
+.publik_list {
+    border-bottom: 4px solid $span_border;
+
+    @media (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+
+    
+
+    li {
+        padding: 0 0 28px;
+        background: $white;
+        margin-bottom: 30px;
+        border-radius: 8px;
+         
+        @media (min-width: 768px)  {    
+            padding: 0 10px 35px;
+            width: 48%;  
+        }
+        @media (min-width: 992px) {
+            width: 30%;
+        }
+        
+        @media (min-width: 768px) and (max-width: 991px) {
+
+            &:last-child {
+                width: 100%;
+            }
+        }
+
+        img {
+            height: 200px;
+            width: 100%;
+        }
+    }
+
+    a{
+        font-weight: 700;
+        text-transform: none;
+    }
+}
+.publ_info {
+    padding: 23px 30px;
+}
+
+.publ_img {
+    text-align: center;
+}

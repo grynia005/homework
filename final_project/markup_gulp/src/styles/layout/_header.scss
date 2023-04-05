@@ -109,11 +109,11 @@
 
     a {
         text-align: center;
-        color: #323264 !important;
+        color: #323264;
         font-size: 24px;
 
         &:hover {
-            color: aqua;
+            color: $prime-color-red;
         } 
     }
 
@@ -156,17 +156,20 @@
         top: 40%;
 
     }
+    @media (min-width: 1200px) {
+        right: 79%;
+    }
 
 }
 
 .menu_head {
     background-color: $menu-gradient;
     border: 2px solid $menu-gradient;
-    position: fixed;
+    position: absolute;
     top: 45px;
     right: 0;
     width: 250px;
-    height: 100vh;
+    height: auto;
     padding: 50px 0 0 20px;
     opacity: 0;
     transition: opacity .8s;
